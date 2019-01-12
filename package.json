@@ -4,7 +4,8 @@
   "description": "A reference implementation of a platform client for twitch.tv",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,6 @@
     "@majobot/api": "^0.5.0",
     "@types/node": "^10.12.18"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "types": "dist/index.d.ts"
 }

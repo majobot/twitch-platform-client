@@ -1,5 +1,5 @@
 import {Channel, Command, PlatformClient} from '@majobot/api';
-import {TwitchPlatformClient} from "..";
+import {TwitchPlatformClient} from ".";
 
 export class TwitchChannel implements Channel {
   private _commands: Array<Command> = [];

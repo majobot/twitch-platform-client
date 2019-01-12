@@ -1,7 +1,7 @@
 import {BootableState, Channel, Message, PlatformClient} from '@majobot/api';
-import {TwitchChannel} from './lib/twitch-channel';
+import {TwitchChannel} from './twitch-channel';
 import net from 'net';
-import {TwitchMessage} from './lib/twitch-message';
+import {TwitchMessage} from './twitch-message';
 
 export class TwitchPlatformClient implements PlatformClient {
   private _username: string = '';
